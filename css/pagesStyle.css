@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Dancing+Script:wght@700&family=Griffy&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize!important;   
+    /* font-family: 'Roboto', sans-serif !important; */
+}
+body{
+    background-color: #fff;
+    height: 0px;
+}
+.pages-Header{
+    width: 100%;
+    height: 600px;
+    background:linear-gradient(rgba(0,0,0,0.4) , rgba(0,0,0,0.4)) ,
+     url(../images/bg_5.jpg) no-repeat center ;
+     background-size: cover;
+}
+.pages-header-text{
+    margin-top: 400px!important;
+
+}
+
+
+.pages-header-text span{
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff!important;
+
+    /* transition: all 0.6s ease; */
+}
+.pages-header-text span a{
+    text-decoration: none!important;
+    color: #fff!important;
+    transition: all 0.6s ease;
+
+}
+
+.pages-header-span a:hover{
+    color: #e22a33!important;
+
+}
+
+
+.count{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background: linear-gradient(rgba(0,0,0,0.6) , rgba(0,0,0,0.6)) ,
+    url(../images/bg_4.jpg) no-repeat fixed center ;
+    background-size: cover;
+}
+
+#formaya{
+    width: 100%;
+    height: auto;
+    position: relative;
+    background-color: #e32633;
+}
+
+.sub-butn{
+    background-color: white;
+    color: #e32633;
+    outline: none;
+    border: none;
+}
+.pagenationn{
+list-style: none;
+}
+.pagenationn li a {
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    font-size: 17px;
+    color:#e22a33;
+    border: 1px solid #e32633;
+    margin-top: 10px;
+    text-decoration: none!important;
+    line-height: 20px;
+}
+.pagenationn li a:hover{
+    background-color: #fff;
+    border: 1px solid #e32633;
+    color:#e22a33;
+
+}
+
+.active-pagenation-link{
+    background-color: #e32633!important;
+    color: white!important;
+
+}
+.dbox{  width: 100%;
+    background: #e52b34;
+    padding: 2em;
+    border-radius: 4px; }
+
+.dbox a{ 
+    text-decoration: none!important;
+    color: white!important;
+}
+
+iframe{
+    width: 100%;
+    height: 100%;
+}
+
+#validationCustom{
+    color: black!important;
+}
+
+#validationCustom::placeholder{
+    color: black!important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
